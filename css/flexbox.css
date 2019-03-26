@@ -5,12 +5,22 @@
 @media (min-width: 769px) {
 
 .main-header,
-.main-nav {
+.main-nav,
+.row {
 	display: flex;
 }
 .main-header {
 	flex-direction: column;
 	align-items: center;
+}
+.col {
+	flex: 1 50%;
+}
+.row {
+	flex-wrap: wrap;
+}
+.secondary {
+	order: -1;
 }
 
 }
@@ -19,7 +29,13 @@
 
 .main-header {
 	flex-direction: row;
-	justify-content: space-between; 
+	justify-content: space-between;
+}
+.col {
+	flex-basis: 0;
+}
+.primary {
+	flex: 1.4;
 }
 
 }
