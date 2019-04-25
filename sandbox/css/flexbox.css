@@ -9,7 +9,8 @@
 }
 .item {
 	/*justify-content: flex-start;*/
+	flex-grow: 1;
 }
-.item-1 {
-	margin-right: auto;
+.item-3 {
+	flex-grow: 3;
 }
